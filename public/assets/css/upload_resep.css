@@ -1,0 +1,466 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Satisfy';
+    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url(../fonts/Dancing-Script/DancingScript-Regular.ttf);
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+.block{ display: block;}
+.bold{ font-weight: 600;}
+
+header {
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 2px 3px rgb(211, 211, 211);
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 50px 0 20px;
+    
+}
+
+
+nav ul li{
+    display: inline-block;    
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+}
+
+.red{
+    font-family: 'Satisfy';
+    color: red;
+}
+
+.white{
+    font-family: 'Satisfy';
+    color: white;
+    text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 rgb(226, 226, 226), 1px 1px 0 rgb(226, 226, 226);
+}
+
+.logo{
+    font-weight: 600;
+    font-family: 'Satisfy';
+    font-size: 30px;
+}
+
+#Suggest-Search {
+    margin-top: 100px;
+    width: 50%;
+    right: 0;
+    left: 0;
+    padding: 0 100px;
+}
+
+.nav-daftar{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: all ease-in-out 0.3s;
+}
+.nav-daftar:hover{
+    background-color: transparent;
+    color: red;
+}
+.nav-masuk{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: all ease-in-out 0.3s;
+}
+.nav-masuk:hover{
+    background-color: red;
+    color: white;
+}
+
+.column {
+    display: inline-block;
+    width: 55%;
+    padding: 0 10px;
+    margin: 15px 1px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+
+
+#Detail-Resep {
+    margin-top: 70px;
+    width: 100%;
+}
+
+#Detail-Resep .title{
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 0 70px;
+    color: rgb(22, 22, 22);
+}
+
+#Detail-Resep .small-title{
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 70px;
+    color: rgb(94, 94, 94);
+    margin-top: -10px;
+    margin-bottom: 1.7rem;
+}
+
+#Detail-Resep .card div {
+    display: flex;
+    justify-content: flex-start;
+}
+#Detail-Resep .card div .profile-user {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+}
+#Detail-Resep .card div .profile-name {
+    margin: 0;
+    font-size: 1.12rem;
+    margin-left: 5px;
+}
+#Detail-Resep .card div .bookmark {
+    margin: 0;
+    font-size: 1.45rem;
+    margin-left: auto;
+}
+#Detail-Resep .card div .bookmark a {
+    color : black;
+    margin: 0 12px;
+}
+
+
+#Detail-Resep .card .card-image{
+    margin-top: 7px;
+    width: 97%;
+    height: 500px;
+    object-fit: cover;
+    transition: all ease-in-out 0.3s;
+}
+#Detail-Resep .card .resep-title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+#Detail-Resep .card .resep-desc{
+    font-size: 1.1rem;
+    color: #333;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+#Detail-Resep .card .bahan-title{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+#Detail-Resep .card .list-bahan{
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    text-overflow: ellipsis;
+    border-bottom: #333 dashed 1px;
+}
+#Detail-Resep .card .langkah-title{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+#Detail-Resep .card div div .langkah-nomor{
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    text-overflow: ellipsis;
+    border-radius: 50%;
+    
+}
+#Detail-Resep .card div div .langkah-text{
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    text-overflow: ellipsis;    
+    
+}
+#Detail-Resep .card div .langkah-foto{
+    width: 150px;    
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    /* width: 100%; */
+    color: white;
+    box-shadow: 0px -2px 0px 0px #888;
+    height: 60px;
+    left: 0;
+    bottom: 0%;
+    
+}
+footer p {
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+.upload-btn{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+}
+.upload-btn:hover{
+    color: red;
+    background-color: transparent;
+}
+@media screen and (max-width: 600px) {
+    header nav ul li a{
+        font-size: 14px;
+    }
+    .nav-daftar{
+        padding: 5px 7px;
+    }
+    .nav-masuk{
+        padding: 5px 7px;
+    }
+    .search-bar{
+        width: 90%;
+    }
+    .column {
+        width: 90%;
+        display: block;
+        margin: 20px 10px 20px 10px;
+      }
+    #Detail-Resep .title{
+        font-size: 1rem;
+        text-align: left;
+        color: rgb(22, 22, 22);
+    }
+}
+
+.file-upload {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .file-upload-btn:hover {
+    background: #1AA059;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+      color: #222;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+    color: #777;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+
+
+  .text-input{
+      width: 95%;
+      height: 40px;
+      border: none;
+      font-size: 25px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin: 7px 0;
+  }
+  .text-area-input{
+    width: 95%;
+    border: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin: 7px 0;
+}
+
+.langkah-num{
+    background-color: #222;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+@media screen and (max-width: 800px) {
+    .column {
+        width: 90%;
+        display: block;
+        margin: 20px 10px 20px 10px;
+      }
+    #Detail-Resep .title{
+        font-size: 1rem;
+        text-align: left;
+        color: rgb(22, 22, 22);
+    }
+}
+
+@media print {
+    @page{
+        size: auto; margin: 0;
+    }
+    header{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .column {
+        display: inline-block;
+        width: 80%;
+        padding: 0 10px;
+        margin: 15px 1px;
+    }
+ }
+ 

@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Satisfy';
+    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url(../fonts/Dancing-Script/DancingScript-Regular.ttf);
+}
+
+  body,
+  html {
+    font-family: "Poppins";
+    background-color: rgb(238, 238, 238);
+  }
+  
+  /* --------------------Login Page----------------------- */
+  
+  .Login-Form {
+    display: block;
+  }
+  
+  .Login-Form form {
+    font-family: "Poppins";
+  }
+  
+  .Login-Form form::-webkit-input-placeholder {
+    color: #888;
+    font-size: 15px;
+  }
+  
+  .Login-Container {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #dedede);
+    box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+    width: 70%;
+    height: 50vh;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .Login-Input {
+    outline: none;
+    font-size: 15.7px;
+    font-family: "Poppins";
+    padding: 7px 20px 7px 20px;
+    width: 40vw;
+    border-radius: 50px;
+    border: 0;
+    margin-top: 3%;
+  }
+  
+  .Login-Input-Address {
+    outline: none;
+    font-size: 15.7px;
+    font-family: "Poppins";
+    padding: 7px 20px 7px 20px;
+    width: 40vw;
+    border-radius: 17px;
+    border: 0;
+    margin-top: 3%;
+  }
+  
+  .Login-Input:hover::-webkit-input-placeholder {
+    color: #555;
+  }
+  
+  .Login-Input:focus,
+  .Login-Input:active {
+    border-radius: 50px;
+    border: 1px solid red;
+  }
+  
+  .Show-Password {
+    float: right;
+    margin: 2%;
+    font-size: 15px;
+  }
+  
+  .Login-Button {
+    background: red;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Poppins";
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+    width: 40%;
+    border-radius: 50px;
+    border: 2px solid red;
+    margin-top: 2%;
+    transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+  }
+  
+  .Login-Button:hover {
+    color: red;
+    background-color: transparent;
+  }
+  
+  .SignUpText {
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+  
+  .SignUpText a{
+    color: #133ecc;
+    text-decoration: none;
+  }
+  
+  .OtherwayText {
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+  
+  .SocialButtonFB {
+    margin: 4% 1%;
+    height: 3vw;
+    width: 3vw;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6vw;
+    color: #162dfc;
+    padding: 1% 2.7%;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 1px solid #162dfc;
+  }
+  
+  .SocialButtonTW {
+    margin: 4% 1%;
+    height: 3vw;
+    width: 3vw;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6vw;
+    color: #02aee2;
+    padding: 1% 1.9%;
+    border-radius: 100%;
+    border: 0;
+    border: 1px solid #02aee2;
+  }
+  
+  #facebook:hover {
+    transition: 0.5s;
+    color: #fff;
+    background-color: #162dfc;
+  }
+  
+  #twitter:hover {
+    transition: 0.5s;
+    color: #fff;
+    background-color: #02aee2;
+  }
+  
+  @media (min-width: 600px) {
+    .Login-Form {
+      margin: 5% 20% 0% 20%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Login-Form {
+      margin: 20% 20% 0% 20%;
+    }
+    .Login-Form form table {
+      margin-top: 10%;
+    }
+    .Login-Input {
+      font-size: 14px;
+    }
+    .Login-Button {
+      width: 70%;
+    }
+    .RememberMe,
+    .SignUpText,
+    .OtherwayText {
+      font-size: 11px;
+    }
+    .SocialButtonFB{
+      width: 25px;
+      height: 25px;
+      padding-left: 7px;
+      padding-right: 7px;
+      font-size: 2.5vw;
+    }
+    .SocialButtonTW,
+    .SocialButtonIG {
+      width: 25px;
+      height: 25px;
+      font-size: 2.5vw;
+    }
+  }
+  /* --------------------Login Page----------------------- */
+  

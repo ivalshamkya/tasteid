@@ -1,0 +1,345 @@
+CRITICAL - 2021-12-30 05:13:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('9')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 05:33:57 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640864037_47a2...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 05:38:06 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640864286_c07c...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 05:45:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 05:48:02 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640864882_051c...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 05:50:05 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(119): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640865005_0525...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 05:51:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 05:52:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Artikel->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:12:42 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/view/11')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/view/11')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:13:05 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/view/10')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/view/10')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:15:54 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/upload')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/upload')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:16:05 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/upload')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/upload')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:16:55 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/upload')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/upload')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:17:42 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/upload')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/upload')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:18:01 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\tasteid\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('resep/upload')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('resep/upload')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:27:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(122): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640921269_9427...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 21:28:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:37:05 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(115): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640921825_b482...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 21:37:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:37:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:39:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:39:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:39:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:40:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:40:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:40:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:40:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:41:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:42:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:42:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:43:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:43:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:43:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-30 21:48:54 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(122): CodeIgniter\HTTP\Files\UploadedFile->move('assets/images/r...', '1640922534_4caf...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-30 22:07:14 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('add_plan', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Planner.php(67): view('add_plan', Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Planner->addmeal()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planner))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-30 22:09:02 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('add_plan', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Planner.php(67): view('add_plan', Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Planner->addmeal()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planner))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-30 22:09:43 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('add_plan', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Planner.php(67): view('add_plan', Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Planner->addmeal()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planner))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-30 22:09:54 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('add_plan', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Planner.php(67): view('add_plan', Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Planner->addmeal()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planner))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-30 22:10:38 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('add_plan', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Planner.php(67): view('add_plan', Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Planner->addmeal()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planner))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-30 22:10:47 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('add_plan', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Planner.php(67): view('add_plan', Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Planner->addmeal()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Planner))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

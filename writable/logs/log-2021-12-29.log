@@ -1,0 +1,104 @@
+CRITICAL - 2021-12-29 16:30:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tasteid\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tasteid\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-29 17:19:18 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tasteid\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tasteid\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2021-12-29 10:28:49 --> Table 'tasteid.artikel' doesn't exist
+CRITICAL - 2021-12-29 10:28:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tasteid\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-12-29 10:29:57 --> Table 'tasteid.artikel' doesn't exist
+CRITICAL - 2021-12-29 10:29:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\tasteid\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-29 10:35:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('7')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 10:37:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('7')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 10:38:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 10:38:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 10:38:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 10:38:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('assets', 'js', 'script.js')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 20:32:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Bookmark.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Bookmark->add('8')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 20:33:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('9')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 20:53:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->view('9')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

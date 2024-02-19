@@ -1,0 +1,142 @@
+ERROR - 2024-02-18 23:10:08 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:10:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:10 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:12 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:11:13 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:11:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+ERROR - 2024-02-18 23:12:03 --> Error connecting to the database: No such file or directory
+CRITICAL - 2024-02-18 23:12:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/ivalshamkya/Downloads/tasteid/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/ivalshamkya/Downloads/tasteid/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/ivalshamkya/Downloads/tasteid/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(10, 0)
+#4 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Home.php(29): CodeIgniter\BaseModel->findAll(10)
+#5 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#6 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#10 {main}
+CRITICAL - 2024-02-18 23:12:32 --> Trying to access array offset on value of type null
+#0 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/ivalsham...', 45)
+#1 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Artikel->view('assets', 'js', 'script.js')
+#2 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#6 {main}
+CRITICAL - 2024-02-18 23:12:32 --> Trying to access array offset on value of type null
+#0 /Users/ivalshamkya/Downloads/tasteid/app/Controllers/Artikel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', '/Users/ivalsham...', 45)
+#1 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(824): App\Controllers\Artikel->view('assets', 'js', 'script.js')
+#2 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#3 /Users/ivalshamkya/Downloads/tasteid/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/ivalshamkya/Downloads/tasteid/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/ivalshamkya/Downloads/tasteid/system/Commands/Server/rewrite.php(43): require_once('/Users/ivalsham...')
+#6 {main}

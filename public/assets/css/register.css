@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Poppins-Thin";
+    src: url(../fonts/Poppins/Poppins-Thin.ttf);
+  }
+  
+  body,
+  html {
+    font-family: "Poppins";
+    background-color: rgb(238, 238, 238);
+  }
+  
+  /* --------------------SignUp Page----------------------- */
+  
+  .SignUp-Form {
+    display: block;
+  }
+  
+  .SignUp-Form form {
+    font-family: "Poppins";
+  }
+  
+  .SignUp-Form form::-webkit-input-placeholder {
+    color: #888;
+    font-size: 15px;
+  }
+  
+  .SignUp-Container {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #dedede);
+    box-shadow: 20px 20px 60px #d2d2d2, -20px -20px 60px #ffffff;
+    width: 70%;
+    height: 50vh;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .SignUp-Input {
+    outline: none;
+    font-size: 15.7px;
+    font-family: "Poppins";
+    padding: 7px 20px 7px 20px;
+    width: 40vw;
+    border-radius: 50px;
+    border: 0;
+    margin-top: 3%;
+  }
+  
+  .SignUp-Input-Address {
+    outline: none;
+    font-size: 15.7px;
+    font-family: "Poppins";
+    padding: 7px 20px 7px 20px;
+    width: 40vw;
+    border-radius: 17px;
+    border: 0;
+    margin-top: 3%;
+  }
+  
+  .SignUp-Input:hover::-webkit-input-placeholder {
+    color: #555;
+  }
+  
+  .SignUp-Input:focus,
+  .SignUp-Input:active {
+    border-radius: 50px;
+    border: 1px solid red;
+  }
+
+  .Show-Password {
+    float: right;
+    margin: 2%;
+    font-size: 15px;
+  }
+  
+  .SignUp-Button {
+    background: red;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Poppins";
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+    width: 40%;
+    border-radius: 50px;
+    border: 2px solid red;
+    margin-top: 2%;
+    transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+  }
+  
+  .SignUp-Button:hover {
+    color: red;
+    background-color: transparent;
+  }
+  
+  .LoginText {
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+  
+  .LoginText a{
+    color: #133ecc;
+    text-decoration: none;
+  }
+  
+  .OtherwayText {
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+  
+  @media (min-width: 600px) {
+    .SignUp-Form {
+      margin: 5% 20% 0% 20%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .SignUp-Form {
+      margin: 20% 20% 0% 20%;
+    }
+    .SignUp-Form form table {
+      margin-top: 10%;
+    }
+    .SignUp-Input {
+      font-size: 14px;
+    }
+    .SignUp-Button {
+      width: 70%;
+    }
+    .RememberMe,
+    .SignUpText,
+    .OtherwayText {
+      font-size: 11px;
+    }
+  }
+  /* --------------------SignUp Page----------------------- */
+  

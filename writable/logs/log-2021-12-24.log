@@ -1,0 +1,306 @@
+CRITICAL - 2021-12-24 08:41:24 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 08:42:01 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 08:42:29 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 08:47:27 --> Call to a member function helper() on null
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 09:00:47 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\tasteid\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\tasteid\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tasteid\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Auth.php(28): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-24 09:02:58 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 C:\xampp\htdocs\tasteid\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 C:\xampp\htdocs\tasteid\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tasteid\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Auth.php(28): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Auth->register()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-24 09:20:23 --> Duplicate entry '61c5e4a345657' for key 'PRIMARY'
+ERROR - 2021-12-24 09:20:47 --> Duplicate entry '61c5e4a345657' for key 'PRIMARY'
+ERROR - 2021-12-24 09:21:37 --> Duplicate entry '61c5e51b75c5a' for key 'PRIMARY'
+CRITICAL - 2021-12-24 10:13:55 --> Call to undefined method CodeIgniter\View\View::view()
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-24 10:37:15 --> Call to undefined method CodeIgniter\View\View::view()
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-24 10:37:38 --> Call to undefined method CodeIgniter\View\View::view()
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-24 10:37:54 --> Call to undefined method CodeIgniter\View\View::view()
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-24 10:45:04 --> Call to undefined method CodeIgniter\View\View::view()
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('upload_resep', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(17): view('upload_resep')
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->index()
+#5 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#6 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-24 19:57:29 --> Call to a member function has() on null
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('includes/topmen...', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Views\home.php(18): view('includes/topmen...')
+#4 C:\xampp\htdocs\tasteid\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#7 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#8 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-12-24 19:57:38 --> Call to a member function has() on null
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('includes/topmen...', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Views\home.php(18): view('includes/topmen...')
+#4 C:\xampp\htdocs\tasteid\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#7 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#8 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-12-24 20:04:51 --> Call to undefined method CodeIgniter\View\View::session_start()
+#0 C:\xampp\htdocs\tasteid\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('includes/topmen...', Array, true)
+#3 C:\xampp\htdocs\tasteid\app\Views\home.php(18): view('includes/topmen...')
+#4 C:\xampp\htdocs\tasteid\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tasteid\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\tasteid\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#7 C:\xampp\htdocs\tasteid\app\Controllers\Home.php(9): view('home')
+#8 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-12-24 21:05:24 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:16:18 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-24 21:24:25 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:24:42 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:33:46 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:35:25 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:35:42 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:36:00 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:36:17 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:36:39 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:37:10 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-24 21:42:47 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(52): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1640403767_2b78...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-24 21:42:56 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(52): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1640403776_9815...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-24 21:45:27 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(52): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1640403927_abf0...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-24 21:45:40 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1640403940_d83e...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-24 21:46:56 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1640404016_2e28...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-24 21:47:25 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\tasteid\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(53): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1640404045_02c7...')
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#4 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-24 22:10:18 --> Illegal string offset 'id_resep'
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-24 22:12:12 --> Illegal string offset 'id_resep'
+#0 C:\xampp\htdocs\tasteid\app\Controllers\Resep.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(824): App\Controllers\Resep->add()
+#2 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Resep))
+#3 C:\xampp\htdocs\tasteid\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tasteid\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tasteid\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-24 22:14:31 --> Column 'id_user' cannot be null
+ERROR - 2021-12-24 22:14:46 --> Column 'id_user' cannot be null
+ERROR - 2021-12-24 22:15:13 --> Column 'id_user' cannot be null
+ERROR - 2021-12-24 22:15:36 --> Column 'id_user' cannot be null
+ERROR - 2021-12-24 22:15:57 --> Column 'id_user' cannot be null

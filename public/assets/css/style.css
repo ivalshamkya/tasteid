@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url(../fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Satisfy';
+    src: url(../fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url(../fonts/Dancing-Script/DancingScript-Regular.ttf);
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+header {
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 2px 3px rgb(211, 211, 211);
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 50px 0 20px;
+    
+}
+
+
+nav ul li{
+    display: inline-block;    
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+}
+
+.red{
+    font-family: 'Satisfy';
+    color: red;
+}
+
+.white{
+    font-family: 'Satisfy';
+    color: white;
+    text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 rgb(226, 226, 226), 1px 1px 0 rgb(226, 226, 226);
+}
+
+.logo{
+    font-weight: 600;
+    font-family: 'Satisfy';
+    font-size: 30px;
+}
+
+#Suggest-Search {
+    margin-top: 100px;
+    width: 50%;
+    right: 0;
+    left: 0;
+    padding: 0 100px;
+}
+
+.nav-daftar{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: all ease-in-out 0.3s;
+}
+.nav-daftar:hover{
+    background-color: transparent;
+    color: red;
+}
+.nav-masuk{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: all ease-in-out 0.3s;
+}
+.nav-masuk:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+.suggest-search {
+    /* text-align: left; */
+}
+
+.list-suggest{
+    margin-top: 20px;
+    display: flex;
+    width: 80%;
+}
+.list-suggest a {
+    margin: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(51, 51, 248);
+
+}
+.list-suggest a button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 12px;
+    background-color: rgb(224, 224, 224);
+    transition: all ease-in-out 0.3s;
+}
+
+.list-suggest a button:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.popular-search {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.search-bar{
+    padding: 17px 10px 17px 10px;
+    width: 70%;
+    border-radius: 7px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.search-bar:focus{
+    border-color: red;
+}
+
+
+.column {
+    display: inline-block;
+    width: 21%;
+    padding: 0 10px;
+    margin: 15px 1px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    height: 500px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+
+
+#List-Resep {
+    margin-top: 100px;
+    width: 100%;
+}
+
+#List-Resep .title{
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 0 70px;
+    color: rgb(22, 22, 22);
+}
+
+#List-Resep .small-title{
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 70px;
+    color: rgb(94, 94, 94);
+    margin-top: -10px;
+    margin-bottom: 1.7rem;
+}
+
+#List-Resep .card div {
+    display: flex;
+    justify-content: flex-start;
+}
+#List-Resep .card div .profile-user {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0;
+}
+#List-Resep .card div .profile-name {
+    margin: 0;
+    font-size: 1.12rem;
+    margin-left: 5px;
+}
+#List-Resep .card div .bookmark {
+    margin: 0;
+    font-size: 1.45rem;
+    margin-left: auto;
+    color: black;
+}
+
+
+#List-Resep .card .card-image{
+    margin-top: 7px;
+    width: 97%;
+    height: 210px;
+    object-fit: cover;
+    transition: all ease-in-out 0.3s;
+}
+#List-Resep .card .resep-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+#List-Resep .card .resep-desc{
+    font-size: 0.93rem;
+    text-align: left;
+    text-overflow: ellipsis;
+    height: 175px;
+    overflow: hidden;
+}
+
+
+footer {
+    /* width: 100%; */
+    color: white;
+    box-shadow: 0px -2px 0px 0px #888;
+    height: 60px;
+    left: 0;
+    bottom: 0%;
+    
+}
+footer p {
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    header nav ul li a{
+        font-size: 14px;
+    }
+    .nav-daftar{
+        padding: 5px 7px;
+    }
+    .nav-masuk{
+        padding: 5px 7px;
+    }
+    .search-bar{
+        width: 90%;
+    }
+    .column {
+        width: 90%;
+        display: block;
+        margin: 20px 10px 20px 10px;
+      }
+    #List-Resep .title{
+        font-size: 1rem;
+        text-align: left;
+        color: rgb(22, 22, 22);
+    }
+}
+@media screen and (max-width: 800px) {
+    .column {
+        width: 90%;
+        display: block;
+        margin: 20px 10px 20px 10px;
+      }
+    #List-Resep .title{
+        font-size: 1rem;
+        text-align: left;
+        color: rgb(22, 22, 22);
+    }
+}
